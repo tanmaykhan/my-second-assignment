@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #FF5400;
+}
+
+.travel-bonus {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+.bonus {
+    color: var(--primary-color);
+}
+
+.icon {
+    margin-top: 17px;
+}
+
+.title {
+    gap: 20px;
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.nav-bar a {
+    color: #424247;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 30px;
+}
+.nav-bar{
+    margin-top: 10px;
+}
+header{
+    display: flex;
+    gap: 260px;
+}
