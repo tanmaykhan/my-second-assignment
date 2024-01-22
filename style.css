@@ -32,10 +32,75 @@
     font-weight: 700;
     padding: 30px;
 }
-.nav-bar{
+
+.nav-bar {
     margin-top: 10px;
+    margin-left: 60px;
 }
-header{
+
+header {
     display: flex;
     gap: 260px;
+}
+
+.explore-travel {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/Group\ 13.png');
+    width: 100%;
+    border-radius: 16px;
+    margin-left: 100px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    position: relative;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+.h-1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.p-1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    margin-top: -20px;
+    font-weight: 400;
+}
+
+.field-11 {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px;
+    border: 10px solid none;
+    border-radius: 20px;
+    border: none;
+}
+.field-12{
+    background-color: var(--primary-color);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px;
+    border: 1px solid none;
+    border-radius: 20px;
+    border: none;
+}
+.a-1{
+    display: flex;
+}
+.field {
+    text-align: center;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 16px;
+    gap: 24px;
 }
