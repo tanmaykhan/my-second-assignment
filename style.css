@@ -52,7 +52,7 @@ header {
     background-repeat: no-repeat;
     width: 1170px;
     height: 500px;
-    position: relative;
+    position: absolute;
     border-radius: 16px;
     margin-top: 20px;
 }
@@ -62,6 +62,7 @@ header {
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
+    margin-top: 100px;
 }
 
 .p-1 {
@@ -81,7 +82,8 @@ header {
     border-radius: 20px;
     border: none;
 }
-.field-12{
+
+.field-12 {
     background-color: var(--primary-color);
     color: #FFF;
     font-size: 18px;
@@ -91,16 +93,14 @@ header {
     border-radius: 20px;
     border: none;
 }
-.a-1{
-    display: flex;
-}
+
 .field {
     text-align: center;
-    border-radius: 8px;
     color: rgba(19, 19, 24, 0.50);
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     padding: 16px;
-    gap: 24px;
+    gap: 40px;
+    border: 2px solid none;
+    border-radius: 8px;
 }
