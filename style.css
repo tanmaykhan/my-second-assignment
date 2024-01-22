@@ -291,6 +291,16 @@ header {
     color: #5A5A5D;
     font-family: Mulish;
     font-size: 18px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.para-6 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -403,15 +413,41 @@ header {
     margin-left: 80px;
 }
 
-.para-7 {
+.para-8 {
     color: #FFF;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
+    width: 324px;
+}
+
+.para-9 {
+    color: #FFF;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+
+}
+
+.sixth {
+    width: 672px;
+    height: 422px;
+    flex-shrink: 0;
+    z-index: 1;
+    margin-left: 50px;
+}
+.pp-1{
+    margin-left: 300px;
+    border-radius: 16px;
+    background: #FF5400;
+    border: 1px solid none;
+    margin-top: -120px;
+    transform: rotate(-19.628deg);
 }
 
 .fifth-section {
     display: flex;
+    margin-bottom: -150px;
 }
 
 .icon-2 {
