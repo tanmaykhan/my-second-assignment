@@ -157,6 +157,7 @@ header {
 
 .third-section {
     position: relative;
+    margin-left: -30px;
 }
 
 .header-3 {
@@ -195,7 +196,8 @@ header {
     height: 300px;
     position: relative;
 }
-.c-2{
+
+.c-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.6), 100%);
     background-image: url('Images/Rectangle\ 8.png');
     width: 573px;
@@ -203,7 +205,8 @@ header {
     background-repeat: no-repeat;
     position: relative;
 }
-.c-3{
+
+.c-3 {
     background: linear-gradient(rgba(0, 0, 0, 0.6), 100%);
     background-image: url('Images/Rectangle\ 6.png');
     width: 573px;
@@ -212,7 +215,8 @@ header {
     background-repeat: no-repeat;
     position: relative;
 }
-.c-4{
+
+.c-4 {
     background: linear-gradient(rgba(0, 0, 0, 0.6), 100%);
     background-image: url('Images/Rectangle\ 7.png');
     width: 573px;
@@ -221,7 +225,8 @@ header {
     position: relative;
     margin-left: -200px;
 }
-.c-5{
+
+.c-5 {
     background: linear-gradient(rgba(0, 0, 0, 0.6), 100%);
     background-image: url('Images/Rectangle\ 4.png');
     width: 280px;
@@ -230,7 +235,8 @@ header {
     margin-left: -300px;
     margin-top: -20px;
 }
-.c-6{
+
+.c-6 {
     background: linear-gradient(rgba(0, 0, 0, 0.6), 100%);
     background-image: url('Images/Rectangle\ 11.png');
     width: 573px;
@@ -239,7 +245,8 @@ header {
     position: relative;
     margin-top: -20px;
 }
-.c-7{
+
+.c-7 {
     background: linear-gradient(rgba(0, 0, 0, 0.6), 100%);
     background-image: url('Images/Rectangle\ 10.png');
     width: 673px;
@@ -258,4 +265,79 @@ header {
     gap: 20px;
     margin-top: 50px;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.fourth-section {
+    margin-top: 100px;
+}
+.hotel{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.header-4 {
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.para-5 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 30px;
+}
+
+.th-1 {
+    text-align: left;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-top: 60px;
+    margin-left: -50px;
+}
+.th-3 {
+    text-align: left;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-top: 60px;
+    margin-top: 5px;
+    margin: 0 300px;
+
+}
+
+.th-2 {
+    text-align: left;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin-top: 100px;
+    margin: 0 -640px;
+    margin-top: 60px;
+}
+
+.three {
+    display: grid;
+    border: 1px solid none;
+    padding: 150px;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: -150px;
 }
