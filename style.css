@@ -90,7 +90,7 @@ header {
     color: #FFF;
     font-size: 18px;
     font-weight: 500;
-    padding: 16px;
+    padding: 10px 30px;
     border: 1px solid none;
     border-radius: 20px;
     border: none;
@@ -343,6 +343,75 @@ header {
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     margin-top: -150px;
+}
+
+.header-5 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.para-5 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: -2px;
+    margin-bottom: 30px;
+}
+
+#name,
+#email {
+    padding: 10px 180px 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid bisque;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.field-13 {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: none;
+    padding: 10px 155px;
+    margin-top: 10px;
+}
+
+.fifth {
+    justify-content: center;
+    border: 1px solid #FF5400;
+    border-radius: 10px;
+    margin-bottom: 300px;
+    padding: 40px;
+    margin-left: 80px;
+}
+
+.para-7 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fifth-section {
+    display: flex;
 }
 
 .icon-2 {
