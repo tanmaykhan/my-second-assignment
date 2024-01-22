@@ -52,20 +52,22 @@ header {
     background-repeat: no-repeat;
     width: 1170px;
     height: 500px;
-    position: absolute;
+    position: relative;
     border-radius: 16px;
     margin-top: 20px;
 }
 
-.h-1 {
+.header-1 {
     text-align: center;
+    align-items: center;
+    padding-top: 140px;
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
-.p-1 {
+.para-1 {
     color: #FFF;
     text-align: center;
     font-size: 16px;
@@ -103,4 +105,7 @@ header {
     gap: 40px;
     border: 2px solid none;
     border-radius: 8px;
+}
+.second-section{
+    position: absolute;
 }
